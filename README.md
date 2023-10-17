@@ -1,75 +1,59 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# User Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![User Management App](![Alt text](<Screenshot 2023-10-17 201840.png>))
 
-## Available Scripts
+This is a user management application built using React and Redux. It allows you to manage user data with features such as adding new users, searching for existing users by name, and exporting user details to a CSV file.
 
-In the project directory, you can run:
+## Deployment
 
-### `npm start`
+The application is deployed and accessible at [Deployment Link](https://redux-user-management.vercel.app/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Folder Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **`src`**: This is the main source code directory.
+  - **`components`**: Contains React components.
+    - **`UserInputForm.js`**: Component for adding new users.
+    - **`UserDetailsTable.js`**: Component for displaying user details and search functionality.
+    - **`UserDetailsExport.js`**: Component for exporting user data to CSV.
+  - **`store.js`**: Redux store configuration.
+  - **`App.js`**: Main application component.
+  - **`index.js`**: Entry point of the application.
+- **`public`**: Contains static assets.
+- **`README.md`**: The file you're currently reading.
 
-### `npm test`
+## Data Flow
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. The UserInputForm component collects user information (name, email, gender, mobile number).
+2. When the "Submit" button is clicked, an action of type "ADD_USER" is dispatched to the Redux store.
+3. The user's reducer in the store adds the new user to the state.
+4. The UserDetailsTable component displays the list of users from the store and allows searching by name.
+5. The UserDetailsExport component lets you export user details to a CSV file.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How It Works
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Visit the deployment link to access the User Management App.
+2. Use the "Add User" form to input user details and click "Submit."
+3. Users are added to the list, displayed in the UserDetailsTable.
+4. You can search for specific users by entering their names in the search bar.
+5. Click "Export to CSV" to export the user details to a CSV file.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tech Stack and Libraries Used
 
-### `npm run eject`
+- **React:** Front-end library for building the user interface.
+- **Redux:** State management for managing user data and actions.
+- **React-Redux:** Official Redux bindings for React.
+- **react-csv:** Library used for exporting user data to CSV.
+- **Vercel:** Deployment platform for hosting the application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions are welcome. Please open an issue to discuss any changes or improvements you'd like to make.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Acknowledgments
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- This project was created for educational purposes and serves as a basic example of a React and Redux application for user management.
 
-## Learn More
+   
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# User-Management-Redux
-"User Management App: A React and Redux application for managing user data, with features including adding, searching, and exporting user details to CSV. Created for educational purposes."
->>>>>>> 5f9cc0574feac8e1e664813b19c281fa41d3bf9f
