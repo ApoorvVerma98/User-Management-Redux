@@ -1,7 +1,7 @@
 import React from "react";
 import { CSVLink } from "react-csv";
 import { useSelector } from "react-redux";
-import './UserDetailsExport.css';
+import "./UserDetailsExport.css";
 
 const UserDetailsExport = () => {
   const users = useSelector((state) => state.users);

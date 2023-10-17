@@ -1,6 +1,5 @@
-/* app.css */
 body {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
   display: flex;
   flex-direction: column;
@@ -14,7 +13,7 @@ body {
 
 h1 {
   color: #333;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 20px;
   text-align: center;

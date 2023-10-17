@@ -1,9 +1,9 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import './UserDetailsTable.css';
+import "./UserDetailsTable.css";
 
 const UserDetailsTable = () => {
-  const [searchTerm, setSearchTerm] = React.useState(""); 
+  const [searchTerm, setSearchTerm] = React.useState("");
   const users = useSelector((state) => state.users);
 
   const filteredUsers = users.filter((user) =>
@@ -16,7 +16,8 @@ const UserDetailsTable = () => {
 
   return (
     <div>
-      <input className="user-input-form"
+      <input
+        className="user-input-form"
         type="text"
         onChange={handleSearchChange}
         placeholder="Search by name"
