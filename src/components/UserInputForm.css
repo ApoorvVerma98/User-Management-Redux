@@ -1,0 +1,38 @@
+/* UserInputForm.css */
+.user-input-form {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-input-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .user-input-form input,
+  .user-input-form select {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .user-input-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .user-input-form button:hover {
+    background-color: #45a049;
+  }
+  

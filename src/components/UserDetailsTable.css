@@ -1,0 +1,18 @@
+/* UserDetailsTable.css */
+
+.user-details-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-details-table th,
+  .user-details-table td {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .user-details-table th {
+    background-color: #f2f2f2;
+  }
+  

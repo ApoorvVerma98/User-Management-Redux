@@ -1,0 +1,13 @@
+.user-details-export {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.user-details-export:hover {
+  background-color: #45a049;
+}
