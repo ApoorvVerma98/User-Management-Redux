@@ -1,6 +1,6 @@
 # User Management App
 
-![User Management App](![Alt text](<Screenshot 2023-10-17 201840.png>))
+![User Management App]![Alt text](<Screenshot 2023-10-18 145523.png>)
 
 This is a user management application built using React and Redux. It allows you to manage user data with features such as adding new users, searching for existing users by name, and exporting user details to a CSV file.
 
