@@ -1,9 +1,11 @@
 .user-input-form {
   background: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid #1c1b1b;
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+
 }
 
 .user-input-form label {
@@ -13,10 +15,10 @@
 
 .user-input-form input,
 .user-input-form select {
-  width: 50%;
+  width: 30%;
   padding: 10px;
   margin: 5px 0;
-  border: 1px solid #ccc;
+  border: 1px solid #1c1b1b;
   border-radius: 5px;
   font-size: 14px;
 }
