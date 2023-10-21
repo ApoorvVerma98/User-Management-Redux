@@ -1,14 +1,16 @@
+/* Styling for the "Export to CSV" button */
 .user-details-export {
-  background: linear-gradient(to right, #4caf50, #ec7004);
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 14px;
-  cursor: pointer;
-  margin-top: 10px;
+  background: linear-gradient(to right, #4caf50, #ec7004); /* Background gradient from green to orange */
+  color: white; /* Text color */
+  border: none; /* Remove borders */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for button content */
+  font-size: 14px; /* Font size */
+  cursor: pointer; /* Show hand cursor on hover */
+  margin-top: 10px; /* Top margin */
 }
 
+/* Hover effect for the "Export to CSV" button */
 .user-details-export:hover {
-  background: linear-gradient(to right, #ec7004, #4caf50);
+  background: linear-gradient(to right, #ec7004, #4caf50); /* Reverse gradient on hover */
 }

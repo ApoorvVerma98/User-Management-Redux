@@ -1,30 +1,33 @@
+/* Styling for the user details table */
 .user-details-table {
-  width: 100%;
-  border-collapse: collapse;
+  width: 100%; /* Table width */
+  border-collapse: collapse; /* Remove spacing between table cells */
 }
 
+/* Styling for table header and data cells */
 .user-details-table th,
 .user-details-table td {
-  padding: 5px 10px;
-  border: 1px solid #4caf50;
-  text-align: left;
+  padding: 5px 10px; /* Cell padding */
+  border: 1px solid #4caf50; /* Cell border */
+  text-align: left; /* Text alignment */
 }
 
+/* Styling for table header */
 .user-details-table th {
-  background-color: #4caf50;
+  background-color: #4caf50; /* Header background color (green) */
 }
 
+/* Styling for the gender filter dropdown */
 .gender-filter {
-  display: inline-block;
-  margin-bottom: 10px;
-  margin-left: 50px;
+  display: inline-block; /* Display as inline block element */
+  margin-bottom: 10px; /* Bottom margin */
+  margin-left: 50px; /* Left margin */
 }
 
 .gender-filter select {
-  width: 100px;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 14px;
+  width: 100px; /* Select box width */
+  padding: 5px; /* Select box padding */
+  border: 1px solid #ccc; /* Select box border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 14px; /* Font size */
 }
-

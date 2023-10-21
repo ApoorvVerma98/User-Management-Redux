@@ -1,38 +1,42 @@
+/* Styling for the user input form */
 .user-input-form {
-  background: #fff;
-  border: 1px solid #1c1b1b;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
+  background: #fff; /* Background color (white) */
+  border: 1px solid #1c1b1b; /* Border color */
+  padding: 20px; /* Padding inside the form */
+  margin-bottom: 20px; /* Bottom margin */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow for a  elevation effect */
+  border-radius: 5px; /* Rounded corners */
 }
 
 .user-input-form label {
-  display: block;
-  margin-bottom: 5px;
+  display: block; /* Display labels as block elements for spacing */
+  margin-bottom: 5px; /* Bottom margin for labels */
 }
 
+/* Styling for input fields and select box in the user input form */
 .user-input-form input,
 .user-input-form select {
-  width: 30%;
-  padding: 10px;
-  margin: 5px 0;
-  border: 1px solid #1c1b1b;
-  border-radius: 5px;
-  font-size: 14px;
+  width: 30%; /* Input/select width */
+  padding: 10px; /* Input/select padding */
+  margin: 5px 0; /* Vertical margin for input/select elements */
+  border: 1px solid #1c1b1b; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 14px; /* Font size */
 }
 
+/* Styling for the submit button in the user input form */
 .user-input-form button {
-  background: linear-gradient(to right, #4caf50, #ec7004);
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 14px;
-  cursor: pointer;
-  margin-top: 10px;
+  background: linear-gradient(to right, #4caf50, #ec7004); /* Background gradient from green to orange */
+  color: white; /* Text color */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for button content */
+  font-size: 14px; /* Font size */
+  cursor: pointer; /* Show hand cursor on hover */
+  margin-top: 10px; /* Top margin */
 }
 
+/* Hover effect for the submit button in the user input form */
 .user-input-form button:hover {
-  background: linear-gradient(to right, #ec7004, #4caf50);
+  background: linear-gradient(to right, #ec7004, #4caf50); /* Reverse gradient on hover */
 }

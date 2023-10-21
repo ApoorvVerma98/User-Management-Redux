@@ -1,10 +1,13 @@
+// here i import React, useDispatch, and styles.
 import React from "react";
 import { useDispatch } from "react-redux";
 import './UserInputForm.css';
 
+//here I defined the user input form component.
 const UserInputForm = () => {
   const dispatch = useDispatch();
 
+  // here is the Function to handle form submission and dispatch user data.
   const handleSubmit = (event) => {
     event.preventDefault();
     const name = event.target.name.value;
@@ -20,6 +23,7 @@ const UserInputForm = () => {
 
   return (
     <form className="user-input-form" onSubmit={handleSubmit}>
+      {/* most important here is the Form input fields for name, email, gender, and mobile number. */}
       <label>Name: </label>
       <input type="text" name="name" required />
       <br />
@@ -35,9 +39,11 @@ const UserInputForm = () => {
       <label>Mobile Number: </label>
       <input type="tel" name="mobileNumber" required />
       <br />
+      {/* its a Submit button. */}
       <button type="submit">Submit</button>
     </form>
   );
 };
 
+// here it simply Export the UserInputForm component so it can be  usef in other parts of the application.
 export default UserInputForm;

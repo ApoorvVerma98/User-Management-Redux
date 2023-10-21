@@ -1,22 +1,21 @@
+/* Styling for the overall body or page layout */
 body {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  background-color: #f0f0f0;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace; /* Font family for the entire page */
+  display: flex; /* Display as a flex container */
+  flex-direction: column; /* Arrange child elements in a column */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  min-height: 100vh; /* Minimum viewport height */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #f0f0f0; /* Background color for the entire page */
 }
 
+/* Styling for the main heading (h1) */
 h1 {
-  color: #333;
-  background-color: #4caf50;
-  color: white;
-  padding: 20px;
-  text-align: center;
+  color: #333; /* Text color */
+  background-color: #4caf50; /* Background color (green) */
+  color: white; /* Text color for the heading */
+  padding: 20px; /* Padding around the heading */
+  text-align: center; /* Center-align the text within the heading */
 }
-
-
